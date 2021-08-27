@@ -18,7 +18,6 @@ void insertion_sort_list(listint_t **list)
 		return;
 	before = (*list);
 	now = before->next;
-
 	while (now)
 	{
 		before = now->prev;
